@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<main class="px-3">
+    <img src="{{ url_for('static', filename='img/pic1.gif')}}" alt="Max-width 50%" class="h-50 rounded-circle">
+    <style>
+        h1::after {
+            content: '|';
+            margin-left: 5px;
+            opacity: 1;
+            animation: pisca .7s infinite;
+        }
+
+        @keyframes pisca {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <h1 class="titulo-principal">Gabriel Bezerra Silva de França</h1>
+    <script>
+    function typeWrite(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = ' ';
+    textoArray.forEach(function(letra, i){   
+      
+    setTimeout(function(){
+        elemento.innerHTML += letra;
+    }, 75 * i)
+
+  });
+}
+    const titulo = document.querySelector('.titulo-principal');
+    typeWrite(titulo); 
+
+    </script>
+    <p class="lead">Apaixonado em aprender coisas novas. <br>
+        Técnico em Informática/IFRN.</p>
+    <p class="lead">
+        <a class="link-dark" href="https://github.com/staiton" >
+            <button type="button" class="btn btn-light btn-outline-dark">
+                <i class="bi bi-github"></i>
+            </button>
+        </a>
+        <a class="link-dark" href="https://www.instagram.com/franca.jpeg/" >
+            <button type="button" class="btn btn-light btn-outline-dark">
+                <i class="bi bi-instagram"></i>
+            </button>
+        </a>
+        <a class="link-dark" href="https://www.youtube.com/@franca_tec" >
+            <button type="button" class="btn btn-light btn-outline-dark">
+                <i class="bi bi-youtube"></i>
+            </button>
+        </a>
+    </p>
+</main>
+{% endblock %}
