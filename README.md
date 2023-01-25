@@ -1,51 +1,88 @@
-### <h1>Projeto criado para a disciplina de programação web<h1>
-### Requirements:
-boto3==1.21.27<br>
-botocore==1.24.27<br>
-click==8.0.4<br>
-colorama==0.4.4<br>
-Flask==2.0.3<br>
-Flask-WTF==1.0.0<br>
-flush==1.0<br>
-itsdangerous==2.1.2<br>
-Jinja2==3.1.1<br>
-jmespath==1.0.0<br>
-MarkupSafe==2.1.1<br>
-psycopg2==2.9.3<br>
-python-dateutil==2.8.2<br>
-python-dotenv==0.20.0<br>
-s3transfer==0.5.2<br>
-six==1.16.0<br>
-urllib3==1.26.9<br>
-Werkzeug==2.0.3<br>
-wtf==0.1<br>
-WTForms==3.0.1<br>
+
+# Portfólio Online
+
+Este projeto foi criado para a disciplina de programador de sistemas do Senac/RN.
 
 
 
-### Quem eu sou?
 
-<img src="https://img.shields.io/static/v1?label=Overview&message=valtemirprocopio&color=f8efd4&style=for-the-badge&logo=GitHub">
+## Demonstração
 
-<p>
+https://youtu.be/w4agIGRvPqY
+## Screenshots
 
-Estudando/trabalhando na **Serviço Nacional de Aprendizagem Comercial – Senac**<br/>
-
-Apaixonado por **front-end** e **back-end**.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
-</p>
-<hr>
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+git clone https://github.com/staiton/projeto-senac
+```
+
+Entre no diretório do projeto
+
+```bash
+cd projeto-senac
+```
+
+Crie o ambiente virtual
+```bash
+py -3 -m venv venv 
+```
+
+Ative o ambiente virtual
+```bash
+venv\Scripts\activate
+```
+
+Instale as dependências
+```bash
+pip install -r .\requirements.txt
+```
+
+Inicie o servidor
+
+```bash
+flask run
+```
+
+Para acessar o projeto basta acessar o loopback
+
+```bash
+http://127.0.0.1:5000
+```
+## Requirements
+
+boto3==1.21.27 <br>
+botocore==1.24.27 <br>
+click==8.0.4 <br>
+colorama==0.4.4 <br>
+Flask==2.0.3 <br>
+Flask-WTF==1.0.0 <br>
+flush==1.0 <br>
+itsdangerous==2.1.2 <br>
+Jinja2==3.1.1 <br>
+jmespath==1.0.0 <br>
+MarkupSafe==2.1.1 <br>
+psycopg2==2.9.3 <br>
+python-dateutil==2.8.2 <br>
+python-dotenv==0.20.0 <br>
+s3transfer==0.5.2 <br>
+six==1.16.0 <br>
+urllib3==1.26.9 <br>
+Werkzeug==2.0.3 <br>
+wtf==0.1 <br>
+WTForms==3.0.1 <br>
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
-![](https://komarev.com/ghpvc/?username=valtemirprocopio&color=006bed)
+## Autores
 
-<h3> Sobre mim </h3>
-
-- 🤔 &nbsp; Explorando novas tecnologias e desenvolvendo soluções de software.
-- 🎓 &nbsp; Estudando **Licenciatura em Informática** no <a href="https://portal.ifrn.edu.br/campus/natalzonanorte">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte | Natal - Zona Norte
-</a>.
-- 💼 &nbsp; Sou **professor** no <a href="https://www.rn.senac.br/">Senac CEP alecrim</a>
-- 🌱 &nbsp; Aprendendo mais sobre **Framework Flask e python**.
-
+- [Gabriel França](https://www.github.com/staiton)
 
