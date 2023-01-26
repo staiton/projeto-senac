@@ -11,8 +11,14 @@ Este projeto foi criado para a disciplina de programador de sistemas do Senac/RN
 https://youtu.be/w4agIGRvPqY
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### Home
+![Screenshot_1](https://user-images.githubusercontent.com/55883166/214692983-0af43019-31bc-4ac6-b36d-1bf1927941e8.png)
 
+### Skills
+![Screenshot_2](https://user-images.githubusercontent.com/55883166/214695495-2ca85637-332c-4083-8450-3d32d618fdeb.png)
+
+### Contato
+![Screenshot_3](https://user-images.githubusercontent.com/55883166/214695611-10bd1291-4f6e-435e-a6a5-d736032b1577.png)
 
 ## Rodando localmente
 
